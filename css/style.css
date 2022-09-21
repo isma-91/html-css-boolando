@@ -46,6 +46,11 @@ nav {
   width: calc(100% / 3 - 2rem);
 }
 
+.card > a {
+  text-decoration: none;
+  color: black;
+}
+
 .imgs-shop img {
   width: 100%;
 }
@@ -84,4 +89,18 @@ nav {
   background-color: green;
   color: white;
   padding: 5px 10px;
+}
+
+.model {
+  font-weight: bold;
+}
+
+.new-price {
+  color: red;
+  font-weight: bold;
+}
+
+.old-price {
+  color: black;
+  text-decoration: line-through;
 }
