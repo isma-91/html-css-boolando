@@ -5,6 +5,9 @@
 }
 
 nav {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
   background-color: #ff6900;
   display: flex;
   height: 70px;
@@ -36,9 +39,9 @@ nav {
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
-  width: 80%;
+  width: 77%;
   margin: auto;
-  border: 3px solid black;
+  padding: 100px 0;
 }
 
 .card {
@@ -49,6 +52,10 @@ nav {
 .card > a {
   text-decoration: none;
   color: black;
+}
+
+.heart:hover {
+  color: red;
 }
 
 .imgs-shop img {
@@ -103,4 +110,30 @@ nav {
 .old-price {
   color: black;
   text-decoration: line-through;
+}
+
+footer {
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.end {
+  padding: 20px 0;
+  line-height: 1.8rem;
+}
+
+.company {
+  font-weight: bold;
+}
+
+.social-icons a {
+  font-size: 23px;
+  padding: 0 3px;
 }
