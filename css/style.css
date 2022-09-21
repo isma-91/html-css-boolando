@@ -30,3 +30,58 @@ nav {
   padding: 0 0.3rem;
   color: white;
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  border: 3px solid black;
+}
+
+.card {
+  position: relative;
+  width: calc(100% / 3 - 2rem);
+}
+
+.imgs-shop img {
+  width: 100%;
+}
+
+.top {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.card:hover .top {
+  opacity: 0;
+}
+
+.heart {
+  position: absolute;
+  background-color: white;
+  padding: 15px;
+  top: 20px;
+  right: 0px;
+}
+
+.details {
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+}
+
+.sconto {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+}
+
+.sost {
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+}
