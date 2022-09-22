@@ -39,11 +39,12 @@ nav {
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
+  /* justify-content: space-between; */
   width: 77%;
   margin: auto;
   padding: 100px 0;
 }
-
+/* Chiedere come togliere il gap laterale interno del container */
 .card {
   position: relative;
   width: calc(100% / 3 - 2rem);
@@ -141,4 +142,8 @@ footer a {
 .social-icons a {
   font-size: 23px;
   padding: 0 3px;
+}
+
+.info a {
+  padding: 0 13px 0 0;
 }
